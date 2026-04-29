@@ -10,9 +10,12 @@ int main(){
         cin>>arr[i];
     }
     //precalculate
-    int hash[12]={0};
+    int hash[13]={0};
     for(int i=0;i<ArrSize;i++){
         hash[arr[i]]+=1;
     }
-    cout<<hash[1];
+    int q;
+    cout<<"Enter the number of test cases: ";
+    cin>>q;
+    cout<<hash[q];
 }
